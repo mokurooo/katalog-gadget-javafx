@@ -1,0 +1,6 @@
+model\Gadget.class
+main\Launcher.class
+data\GadgetRepository.class
+controller\KatalogController.class
+db\Database.class
+main\MainApp.class

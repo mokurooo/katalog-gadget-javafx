@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.KatalogController"
+            prefWidth="1000" prefHeight="760"
+            stylesheets="@styles/app.css">
+    <top>
+        <VBox spacing="8" styleClass="header">
+            <Label text="Katalog Gadget" styleClass="title"/>
+            <Label text="Isi form, simpan, lalu lihat katalog."
+                   wrapText="true" styleClass="muted"/>
+            <Label text="Nama gadget"/>
+            <TextField fx:id="namaField" promptText="Contoh: Mouse Wireless"/>
+            <Label text="Harga (Rp)"/>
+            <TextField fx:id="hargaField" promptText="Contoh: 150000"/>
+            <Label text="Foto contoh"/>
+            <ComboBox fx:id="fotoBox" maxWidth="Infinity"/>
+            <Button text="Simpan" onAction="#simpan"
+                    styleClass="button-primary"/>
+            <Label fx:id="pesanLabel" wrapText="true"/>
+            <Label fx:id="jumlahLabel" text="Jumlah gadget: 0"/>
+        </VBox>
+    </top>
+    <center>
+        <ScrollPane fitToWidth="true" fitToHeight="false">
+            <content>
+                <TilePane fx:id="katalogPane" hgap="16" vgap="16"
+                          alignment="TOP_LEFT" tileAlignment="TOP_LEFT"
+                          styleClass="katalog"/>
+            </content>
+        </ScrollPane>
+    </center>
+</BorderPane>

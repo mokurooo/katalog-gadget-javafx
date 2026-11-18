@@ -1,0 +1,24 @@
+.root {
+    -fx-font-family: "SansSerif";
+    -fx-font-size: 14px;
+    -fx-background-color: #f2f7f6;
+}
+.header { -fx-padding: 20 24; -fx-background-color: white; }
+.title { -fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #12302d; }
+.muted { -fx-text-fill: #5f7370; -fx-font-size: 12px; }
+.text-field, .combo-box { -fx-padding: 7; -fx-background-radius: 7; }
+.button-primary {
+    -fx-background-color: #0f766e;
+    -fx-text-fill: white;
+    -fx-padding: 10 24;
+    -fx-background-radius: 8;
+}
+.button-primary:hover { -fx-background-color: #115e59; }
+.katalog { -fx-padding: 20 24; }
+.kartu-gadget {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-padding: 16;
+}
+.nama-gadget { -fx-font-weight: bold; }
+.scroll-pane, .scroll-pane > .viewport { -fx-background-color: transparent; }
