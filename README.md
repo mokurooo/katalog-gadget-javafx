@@ -6,7 +6,7 @@
 
 Aplikasi desktop katalog gadget berbasis **JavaFX** dan **SQLite**. Data diisi lewat form, disimpan permanen ke database, lalu ditampilkan sebagai kartu katalog.
 
-![Tampilan aplikasi](docs/screenshot.png)
+
 
 ## Fitur
 
